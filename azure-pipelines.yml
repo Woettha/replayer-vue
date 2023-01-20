@@ -16,6 +16,7 @@ steps:
           npm install
           npm test 
           npm run build
+          echo '$(beest)'
       displayName: 'npm install and build'
     # Publishing the test results
     - task: PublishTestResults@2
